@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# If using Django collectstatic
+/static/
+static/
+
+# Ignore Django secret key settings
+.env
+.env.*
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest cache
+.pytest_cache/
+
+# mypy type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Unit test / test result files
+test-results/
+*.mo
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+commit-backfill.py
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.pid.lock
+__pypackages__/
+
+# touched on 2025-07-09T21:53:54.145145Z
+# touched on 2025-07-09T21:54:08.767624Z
+# touched on 2025-07-09T21:54:11.529201Z
+# touched on 2025-07-09T21:55:02.051697Z
+# touched on 2025-07-09T21:55:21.740063Z
+# touched on 2025-07-09T21:55:31.783325Z
+# touched on 2025-07-09T21:56:00.205586Z
+# touched on 2025-07-09T21:56:05.108052Z
+# touched on 2025-07-09T21:56:40.073393Z
+# touched on 2025-07-09T21:56:56.671381Z
+# touched on 2025-07-09T21:57:53.970666Z
+# touched on 2025-07-09T21:57:58.235985Z
+# touched on 2025-07-09T21:58:07.188352Z

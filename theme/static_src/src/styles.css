@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/**
+  * A catch-all path to Django template files, JavaScript, and Python files
+  * that contain Tailwind CSS classes and will be scanned by Tailwind to generate the final CSS file.
+  *
+  * If your final CSS file is not being updated after code changes, you may want to broaden or narrow
+  * the scope of this path.
+  */
+@source "../../../**/*.{html,py,js}";
+
+# touched on 2025-05-27T15:28:51.118443Z
+# touched on 2025-05-27T15:28:53.856472Z
+# touched on 2025-05-27T15:29:02.329537Z
+# touched on 2025-05-27T15:29:10.581183Z
+# touched on 2025-07-09T21:54:16.341895Z
+# touched on 2025-07-09T21:54:56.521614Z
+# touched on 2025-07-09T21:54:59.694504Z
+# touched on 2025-07-09T21:55:06.485528Z
+# touched on 2025-07-09T21:55:13.040424Z
+# touched on 2025-07-09T21:55:15.311129Z
+# touched on 2025-07-09T21:55:50.488705Z
+# touched on 2025-07-09T21:56:07.672454Z
+# touched on 2025-07-09T21:56:21.418735Z
+# touched on 2025-07-09T21:56:49.530660Z
+# touched on 2025-07-09T21:56:59.320600Z
+# touched on 2025-07-09T21:57:08.212910Z
+# touched on 2025-07-09T21:57:58.235502Z

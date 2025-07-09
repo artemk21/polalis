@@ -1,0 +1,47 @@
+{
+  "name": "theme",
+  "version": "4.0.1",
+  "description": "",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "npm run build:clean && npm run build:tailwind",
+    "build:clean": "rimraf ../static/css/dist",
+    "build:tailwind": "cross-env NODE_ENV=production postcss ./src/styles.css -o ../static/css/dist/styles.css --minify",
+    "dev": "cross-env NODE_ENV=development postcss ./src/styles.css -o ../static/css/dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-nested": "^7.0.2",
+    "postcss-simple-vars": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^4.1.0"
+  }
+}
+
+# touched on 2025-05-27T15:29:13.442050Z
+# touched on 2025-05-27T15:45:56.087875Z
+# touched on 2025-07-09T21:53:59.831039Z
+# touched on 2025-07-09T21:54:16.341671Z
+# touched on 2025-07-09T21:54:27.831687Z
+# touched on 2025-07-09T21:54:32.755118Z
+# touched on 2025-07-09T21:54:38.310628Z
+# touched on 2025-07-09T21:54:44.929021Z
+# touched on 2025-07-09T21:55:08.648637Z
+# touched on 2025-07-09T21:55:15.310968Z
+# touched on 2025-07-09T21:55:44.117519Z
+# touched on 2025-07-09T21:55:48.180198Z
+# touched on 2025-07-09T21:56:00.207681Z
+# touched on 2025-07-09T21:56:02.775561Z
+# touched on 2025-07-09T21:56:05.107767Z
+# touched on 2025-07-09T21:56:12.464638Z
+# touched on 2025-07-09T21:56:21.418452Z
+# touched on 2025-07-09T21:56:23.842385Z
+# touched on 2025-07-09T21:56:44.595807Z
+# touched on 2025-07-09T21:57:17.137039Z
+# touched on 2025-07-09T21:57:38.511196Z
